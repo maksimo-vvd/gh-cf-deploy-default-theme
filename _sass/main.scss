@@ -1,0 +1,76 @@
+//@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/*
+Template Name: Deskoto - HelpDesk and Knowledge Base HTML Template
+Template URI: http://pixner.net/deskoto/
+Author: uiaxis
+Author URI: https://themeforest.net/user/uiaxis
+Description: Deskoto - HelpDesk and Knowledge Base HTML Template. Mosto is a Pixel-Perfect Powerful,
+Mordern HelpDesk and Knowledge Base HTML Template for all types of Help & knoledge based website.
+Version: 1.0.0
+Text Domain:
+*/
+
+/*
+ * bootstrap components
+ * comment unused
+ */
+@import "_bootstrap/functions";
+@import "_bootstrap/variables";
+@import "_bootstrap/mixins";
+//@import "_bootstrap/root";
+@import "_bootstrap/reboot";
+//@import "_bootstrap/type";
+@import "_bootstrap/images";
+//@import "_bootstrap/code";
+@import "_bootstrap/grid";
+//@import "_bootstrap/tables";
+@import "_bootstrap/forms";
+@import "_bootstrap/buttons";
+//@import "_bootstrap/transitions";
+//@import "_bootstrap/dropdown";
+//@import "_bootstrap/button-group";
+@import "_bootstrap/input-group";
+//@import "_bootstrap/custom-forms";
+//@import "_bootstrap/nav";
+//@import "_bootstrap/navbar";
+@import "_bootstrap/card";
+//@import "_bootstrap/breadcrumb";
+//@import "_bootstrap/pagination";
+@import "_bootstrap/badge";
+//@import "_bootstrap/jumbotron";
+@import "_bootstrap/alert";
+//@import "_bootstrap/progress";
+//@import "_bootstrap/media";
+//@import "_bootstrap/list-group";
+//@import "_bootstrap/close";
+//@import "_bootstrap/toasts";
+//@import "_bootstrap/modal";
+//@import "_bootstrap/tooltip";
+//@import "_bootstrap/popover";
+//@import "_bootstrap/carousel";
+//@import "_bootstrap/spinners";
+@import "_bootstrap/utilities";
+//@import "_bootstrap/print";
+
+
+.search-container {
+    background: blue;
+    color: #fff;
+}
+.result-container {
+    a {
+        display: inline;
+    }
+}
+.list-disc {
+    padding-left: 15px;
+    font-size: inherit;
+    li {
+        list-style: disc;
+    }
+}
+
+.know-single-item .bbcclist li {
+    list-style-type: none;
+}
