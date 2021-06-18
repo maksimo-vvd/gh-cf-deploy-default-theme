@@ -12,12 +12,12 @@ Text Domain:
 */
 
 /*
-* bootstrap components
-* comment unused
-*/
+ * bootstrap components
+ * comment unused
+ */
+@import "_bootstrap/functions";
 @import "_bootstrap/variables";
 @import "_bootstrap/mixins";
-@import "_bootstrap/functions";
 //@import "_bootstrap/root";
 @import "_bootstrap/reboot";
 //@import "_bootstrap/type";
